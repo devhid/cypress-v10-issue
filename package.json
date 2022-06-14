@@ -1,0 +1,17 @@
+{
+  "name": "cypress-issue1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/lighthouse.cy.js --no-exit --headed --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.1.0"
+  },
+  "dependencies": {
+    "@cypress-audit/lighthouse": "^1.3.0"
+  }
+}
